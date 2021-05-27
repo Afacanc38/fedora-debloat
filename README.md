@@ -3,7 +3,7 @@ Hiç kullanmadığım uygulamaları kaldıran ve [video oynatma sıkıntısını
 ## Komutların açıklaması
 - `notify-send`: Kullanıcıya masaüstü bildirimleri göndermesini sağlar.
 - `dnf`: Fedora'nın öntanımlı dosya yöneticisidir.
-<br>Not: `root` olarak değil, normal kullanıcı olarak başlatın.
+<br><br>Not: `root` olarak değil, normal kullanıcı olarak başlatın.
 ```
 git clone https://github.com/Afacanc38/fedora-debloat.git
 cd fedora-debloat
