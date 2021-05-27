@@ -7,4 +7,4 @@ Hiç kullanmadığım uygulamaları kaldıran ve [video oynatma sıkıntısını
 ```
 git clone https://github.com/Afacanc38/fedora-debloat.git
 cd fedora-debloat
-./fedora-kurulum-sonrası
+./fedora
