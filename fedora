@@ -8,7 +8,6 @@ pkexec dnf install ffmpeg-libs mozilla-openh264 -y
 notify-send -a "Fedora" "Video oynatma sorunun çözülmesi için firefox 10 saniye içerisinde yeniden başlatılacak."
 sleep 10
 killall firefox
-firefox &
 notify-send -a "Fedora" "Gereksiz GNOME uygulamaları kaldırılıyor..."
 pkexec dnf remove gnome-clocks-40.0-1.fc34.x86_64  gnome-contacts-40.0-1.fc34.x86_64 gnome-maps-40.0-1.fc34.x86_64 gnome-weather-40.0-1.fc34.noarch libreoffice* gnome-photos-40.0-1.fc34.x86_64 rhythmbox-3.4.4-8.fc34.x86_64 gnome-tour-40.0-1.fc34.x86_64 cheese -y
 notify-send -a "Fedora" "Vim kuruluyor..."
