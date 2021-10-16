@@ -9,6 +9,6 @@ notify-send -a "Fedora" "Video oynatma sorunun çözülmesi için firefox 10 san
 sleep 10
 killall firefox
 notify-send -a "Fedora" "Gereksiz GNOME uygulamaları kaldırılıyor..."
-pkexec dnf remove gnome-clocks-40.0-1.fc34.x86_64  gnome-contacts-40.0-1.fc34.x86_64 gnome-maps-40.0-1.fc34.x86_64 gnome-weather-40.0-1.fc34.noarch libreoffice* gnome-photos-40.0-1.fc34.x86_64 rhythmbox-3.4.4-8.fc34.x86_64 gnome-tour-40.0-1.fc34.x86_64 cheese -y
+pkexec dnf remove gnome-clocks-40.0-1.fc34.x86_64  gnome-contacts-40.0-1.fc34.x86_64 gnome-maps-40.0-1.fc34.x86_64 gnome-weather-40.0-1.fc34.noarch gnome-photos-40.0-1.fc34.x86_64 rhythmbox-3.4.4-8.fc34.x86_64 gnome-tour-40.0-1.fc34.x86_64 cheese -y
 notify-send -a "Fedora" "Vim kuruluyor..."
 pkexec dnf install vim
